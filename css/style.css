@@ -253,7 +253,7 @@ h6 {
 
 #intro .intro-content .btn-get-started:hover {
   background: #d52a2a !important;
-  color: #ff9800;
+  color: #fff;
   border: 2px solid #d52a2a !important;
 }
 
@@ -1214,8 +1214,8 @@ a.btn.btn-secondary {
 }
 
 a.btn.btn-primary:hover {
-  background: #ffd700;
-  color: black;
+  background: black;
+  color: #fff;
 }
 
 a.btn.btn-secondary:hover {
