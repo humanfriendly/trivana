@@ -165,8 +165,8 @@ h6 {
 }
 
 #header #logo img {
-  height: 47px;
-  width: 145;
+  height: 52px;
+  width: 174px;
   padding: 0;
   margin: 0;
 }
@@ -1223,7 +1223,12 @@ a.btn.btn-secondary:hover {
   color: black;
 }
 
+#price h2 {
+  color: #ffffff !important;
+}
+
 section#price {
+  background: linear-gradient(45deg, black 32%, #d52a2a 100%);
   padding: 90px 0 40px;
 }
 
