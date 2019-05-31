@@ -679,50 +679,43 @@
                   </div>
                   <div class="col-lg-7">
                      <div class="container">
-                        <div class="form">
-                           <!-- Form itself -->
-                           <form action="https://formspree.io/hellohumanfriendly@gmail.com" method="POST" id="contactForm">
-                              <!-- <div class="control-group">
-                                 <div class="form-group">
-                                   <input type="text" class="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
-                                   <p class="help-block"></p>
-                                 </div>
-                                 </div>-->
-                              <div class="form-group">
-                                 <div class="controls">
-                                    <input name="email" type="email" class="form-control" placeholder="Please enter your email address here" id="email" required data-validation-required-message="Please enter your email" />
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="controls">
-                                    <select class="form-control" name="service-choice">
-                                       <option value="interior-only">Interior Only</option>
-                                       <option value="exterior-only">Exterior Only</option>
-                                       <option value="standard-wash">Standard Wash</option>
-                                       <option value="full-detail">Full Detail</option>
-                                       <option value="engine-only">Engine Compartment Only</option>
-                                    </select>
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="controls">
-                                    <input name="vehicle model" type="text" class="form-control" placeholder="Please enter your vehicle brand and model here, e.g. BMW X2" id="car-model" required data-validation-required-message="Please enter your car make and model" />
-                                 </div>
-                              </div>
-                              <div class="form-group">
-                                 <div class="controls">
-                                    <textarea name="message" rows="10" cols="100" class="form-control" placeholder="Please enter additional details such as preferred dates and time" id="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
-                                 </div>
-                              </div>
-                              <div id="success"></div>
-                              <!-- For success/fail messages -->
-                              <button type="submit" class="btn btn-primary pull-right">
-                              Send</button>
-                              <br />
-                           </form>
-                        </div>
-                     </div>
+                 <div class="form"> 
+                 
+                  <!-- Form itself -->
+                   <form name="sentMessage" class="well" id="contactForm"  novalidate> 
+                <div class="control-group">
+                            <div class="form-group">
+                  <input type="text" class="form-control" 
+                           placeholder="Full Name" id="name" required
+                             data-validation-required-message="Please enter your name" />
+                    <p class="help-block"></p>
+         
                   </div>
+                     </div> 	
+                         <div class="form-group">
+                           <div class="controls">
+                  <input type="email" class="form-control" placeholder="Email" 
+                                    id="email" required
+                              data-validation-required-message="Please enter your email" />
+               </div>
+                </div> 	
+                    
+                        <div class="form-group">
+                          <div class="controls">
+                      <textarea rows="10" cols="100" class="form-control" 
+                                placeholder="Message" id="message" required
+                      data-validation-required-message="Please enter your message" minlength="5" 
+                                data-validation-minlength-message="Min 5 characters" 
+                                 maxlength="999" style="resize:none"></textarea>
+               </div>
+                        </div> 		 
+                 <div id="success"> </div> <!-- For success/fail messages -->
+                <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+                   </form>
+                 </div>
+         
+               </div>
+                </div>
                </div>
             </div>
             <div class="container mb-4 map">
